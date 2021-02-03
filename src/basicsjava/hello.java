@@ -21,7 +21,7 @@ public class hello {
 		        break;
 
 		    }
-		}// git there
+		}
 		if(f==0) {
 		for(int i=0;i<arr.length;i++)
 		{
