@@ -6,7 +6,6 @@ public class hello {
 	public static void main(String []args)
 
 	{
-		System.out.println("hii java");	
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		if(n>0) {
