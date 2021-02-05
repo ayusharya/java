@@ -6,15 +6,20 @@ public class hello {
 	public static void main(String []args)
 
 	{
+
 		int c=3,d=4;
 		int s=c+d;
 		System.out.println("sum"+s);
+		int a=2, b=3;
+		int mul=a*b;
+		System.out.println("mul "+mul);
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		if(n>0) {
 
 		int[] arr=new int[n];
 		int t,sum=0,j=0,f=0;
+		
 		for(int i=0;i<arr.length;i++)
 		{
 		    arr[i]=sc.nextInt();
