@@ -6,6 +6,9 @@ public class hello {
 	public static void main(String []args)
 
 	{
+		int c=3,d=4;
+		int s=c+d;
+		System.out.println("sum"+s);
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		if(n>0) {
